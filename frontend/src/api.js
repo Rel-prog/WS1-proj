@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5002';
+const API_BASE_URL = 'https://ws1-proj.onrender.com';
 
 export async function fetchProjects() {
   const response = await fetch(`${API_BASE_URL}/api/projects`);
@@ -22,4 +22,5 @@ export async function fetchProjects() {
 //     throw new Error('Failed to fetch projects');
 //   }
 //   return response.json();
+
 // }
